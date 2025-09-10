@@ -9,7 +9,7 @@ const qualifications = [
       {
         title: "Post Graduation in Web Design and Development",
         institution: "Conestoga College",
-        year: "2019",
+        year: "2020",
       },
       {
         title: "B.E. in Information Technology",
