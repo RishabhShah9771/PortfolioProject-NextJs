@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Toaster } from "@/components/ui/toaster";
+import Script from "next/script"; // <-- import Script
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -28,6 +29,20 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body antialiased bg-background">
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-R7FYD61MJ3"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-R7FYD61MJ3');
+          `}
+        </Script>
+
         {children}
         <Toaster />
       </body>
