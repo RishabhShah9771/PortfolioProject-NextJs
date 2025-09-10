@@ -8,7 +8,7 @@ const qualifications = [
     items: [
       {
         title: "Post Graduation in Web Design and Development",
-        institution: "State College of Engineering",
+        institution: "Conestoga College",
         year: "2019",
       },
       {
