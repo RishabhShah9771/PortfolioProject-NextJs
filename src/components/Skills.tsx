@@ -10,6 +10,7 @@ const skills: { category: string; icon: ReactNode; items: string[] }[] = [
       "React",
       "Next.js",
       "TypeScript",
+      "Angular",
       "JavaScript (ES6+)",
       "HTML5 & CSS3",
     ],
@@ -17,12 +18,18 @@ const skills: { category: string; icon: ReactNode; items: string[] }[] = [
   {
     category: "Styling",
     icon: <Paintbrush className="h-8 w-8 text-accent" />,
-    items: ["Tailwind CSS", "shadcn/ui", "CSS Modules", "Framer Motion"],
+    items: [
+      "Tailwind CSS",
+      "shadcn/ui",
+      "CSS Modules",
+      "Framer Motion",
+      "Material UI",
+    ],
   },
   {
     category: "Backend",
     icon: <Server className="h-8 w-8 text-accent" />,
-    items: ["Node.js", "Express", "Firebase", "REST APIs", "GraphQL"],
+    items: ["Node.js", "Java", ".NET", "REST APIs", "GraphQL", "C#"],
   },
   {
     category: "Databases",
@@ -37,7 +44,14 @@ const skills: { category: string; icon: ReactNode; items: string[] }[] = [
   {
     category: "Tools",
     icon: <Wind className="h-8 w-8 text-accent" />,
-    items: ["Git & GitHub", " Jest & Docker", "Vite", "Webpack"],
+    items: [
+      "Git & GitHub",
+      " Jest & Docker",
+      "Vite",
+      "Webpack",
+      "JIRA",
+      "Babel",
+    ],
   },
 ];
 
