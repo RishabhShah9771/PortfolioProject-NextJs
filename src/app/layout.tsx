@@ -4,7 +4,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Rishabh Shah | Portfolio",
-  description: "A portfolio website inspired by Veeva.",
+  description:
+    "A sleek, professional portfolio website with a modern corporate aesthetic.",
 };
 
 export default function RootLayout({
