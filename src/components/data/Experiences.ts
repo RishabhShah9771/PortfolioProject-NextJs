@@ -1,7 +1,7 @@
 const experiences = [
   {
     role: "Software Developer ",
-    company: "HCL Technologies.",
+    company: "HCL Tech.",
     period: "2022 - Present",
     description:
       "Developed and optimized high-performance React and TypeScript applications for a global finance client. Integrated RESTful and GraphQL APIs, modernized legacy systems with Redux and Context API, and built reusable UI components to enhance maintainability and user experience.",
