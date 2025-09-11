@@ -12,8 +12,9 @@ export default function Contact() {
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
           <p className="text-lg text-primary-foreground/80 mb-8">
-            I&apos;m currently open to new opportunities. If you have a project
-            in mind or just want to say hello, feel free to reach out.
+            I'm always excited to explore new opportunities and collaborations.
+            If you'd like to discuss a project or simply connect, don't hesitate
+            to get in touch.
           </p>
           <Button
             asChild

@@ -59,7 +59,7 @@ const projects = [
       "A mobile-first social networking app designed to connect people with shared interests.",
     image: MaptyApp,
     tags: ["Javascript", "leaflet"],
-    liveUrl: "https://thefoodieapp.netlify.app/",
+    liveUrl: "https://mmaptyy.netlify.app/",
     githubUrl:
       "https://github.com/RishabhShah9771/MaptyJavascriptApplication.git",
     aiHint: "mapty-map-steps",
