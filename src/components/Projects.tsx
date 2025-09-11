@@ -9,9 +9,9 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink } from "lucide-react";
-import projects from "./ui/Projects";
+import projects from "./data/Projects";
 
-export default function Projects() {
+const Projects = () => {
   return (
     <section id="projects" className="py-20 md:py-28 bg-card">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -82,4 +82,6 @@ export default function Projects() {
       </div>
     </section>
   );
-}
+};
+
+export default Projects;

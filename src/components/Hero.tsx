@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import ProfileImage from "../../public/RishabhProfilePicture.jpg";
 
-export default function Hero() {
+const Hero = () => {
   return (
     <section id="home" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,4 +50,6 @@ export default function Hero() {
       </div>
     </section>
   );
-}
+};
+
+export default Hero;

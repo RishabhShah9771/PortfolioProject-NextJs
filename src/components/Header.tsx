@@ -9,16 +9,6 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import HeaderImage from "../../public/Portfolio.png";
 import Image from "next/image";
 
-const Logo = () => (
-  <Image
-    src={HeaderImage}
-    alt="Logo"
-    width={40}
-    height={40}
-    priority // optional: loads image immediately
-  />
-);
-
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -91,7 +81,13 @@ export default function Header() {
             href="/"
             className="flex items-center gap-2 font-bold text-xl text-primary"
           >
-            <Logo />
+            <Image
+              src={HeaderImage}
+              alt="Logo"
+              width={40}
+              height={40}
+              priority
+            />
             <span>Portfolio</span>
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
