@@ -2,7 +2,8 @@
 
 A personal portfolio website built with Next.js, React, TypeScript, and Tailwind CSS.
 
-[Live Demo](https://personal-portfolio-2025-blue.vercel.app/)• [View on GitHub](https://github.com/RishabhShah9771/PortfolioProject-NextJs)
+• [Live Demo](https://personal-portfolio-2025-blue.vercel.app/)
+• [View on GitHub](https://github.com/RishabhShah9771/PortfolioProject-NextJs)
 
 ---
 
