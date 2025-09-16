@@ -38,7 +38,7 @@ const qualifications = [
       {
         title: "Javascript Certification",
         institution: "Udemy Courses",
-        year: "2025",
+        year: "2024",
       },
     ],
   },
