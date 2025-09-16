@@ -164,9 +164,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 **Rishabh Shah**  
 GitHub: [@RishabhShah9771](https://github.com/RishabhShah9771)  
-Portfolio: [Live Demo][def]  
-
----
-
-
-[def]: https://personal‑portfolio‑2025‑blue.vercel.app/
+Portfolio: [Live Demo](https://personal-portfolio-2025-blue.vercel.app/) 
