@@ -2,7 +2,7 @@
 
 A personal portfolio website built with Next.js, React, TypeScript, and Tailwind CSS.
 
-[Live Demo](https://personal‑portfolio‑2025‑blue.vercel.app/) • [View on GitHub](https://github.com/RishabhShah9771/PortfolioProject-NextJs)
+[Live Demo][https://personal-portfolio-2025-blue.vercel.app/] • [View on GitHub](https://github.com/RishabhShah9771/PortfolioProject-NextJs)
 
 ---
 
@@ -163,6 +163,9 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 **Rishabh Shah**  
 GitHub: [@RishabhShah9771](https://github.com/RishabhShah9771)  
-Portfolio: [Live Demo](https://personal‑portfolio‑2025‑blue.vercel.app/)  
+Portfolio: [Live Demo][def]  
 
 ---
+
+
+[def]: https://personal‑portfolio‑2025‑blue.vercel.app/
