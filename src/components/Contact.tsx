@@ -21,7 +21,7 @@ export default function Contact() {
             size="lg"
             className="bg-accent text-accent-foreground hover:bg-accent/90 mb-12"
           >
-            <a href="mailto:johndoe@example.com">
+            <a href="mailto:rishabh.shah3197@gmail.com">
               <Mail className="mr-2 h-5 w-5" /> Say Hello
             </a>
           </Button>
