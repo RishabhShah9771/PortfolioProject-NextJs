@@ -40,11 +40,6 @@ const qualifications = [
         institution: "Udemy Courses",
         year: "2024",
       },
-      {
-        title: "Front-End Developement Certification",
-        institution: "Meta via Coursera",
-        year: "2025",
-      },
     ],
   },
 ];
