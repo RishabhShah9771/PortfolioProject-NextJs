@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Download, Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import HeaderImage from "../../public/Portfolio.png";
+import HeaderImage from "../../public/Images/Portfolio.png";
 import Image from "next/image";
 
 export default function Header() {
@@ -37,7 +37,7 @@ export default function Header() {
       }
 
       const sections = navLinks.map((link) =>
-        document.querySelector(link.href)
+        document.querySelector(link.href),
       );
       let current = "#home";
 
@@ -58,7 +58,7 @@ export default function Header() {
 
   const handleLinkClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    href: string
+    href: string,
   ) => {
     e.preventDefault();
     document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
@@ -72,7 +72,7 @@ export default function Header() {
         "sticky top-0 z-50 w-full transition-all duration-300",
         isScrolled
           ? "bg-background/80 backdrop-blur-sm shadow-md"
-          : "bg-transparent"
+          : "bg-transparent",
       )}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -98,7 +98,7 @@ export default function Header() {
                 onClick={(e) => handleLinkClick(e, link.href)}
                 className={cn(
                   "text-lg font-medium text-foreground/80 hover:text-primary transition-colors",
-                  activeLink === link.href && "text-primary font-semibold"
+                  activeLink === link.href && "text-primary font-semibold",
                 )}
               >
                 {link.label}
@@ -133,7 +133,7 @@ export default function Header() {
                         className={cn(
                           "text-xl font-medium text-foreground/80 hover:text-primary transition-colors",
                           activeLink === link.href &&
-                            "text-primary font-semibold"
+                          "text-primary font-semibold",
                         )}
                       >
                         {link.label}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import ProfileImage from "../../public/RishabhProfilePicture.jpg";
+import ProfileImage from "../../public/Images/RishabhProfilePicture.jpg";
 
 const Hero = () => {
   return (

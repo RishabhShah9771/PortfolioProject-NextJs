@@ -1,9 +1,9 @@
-import TicTacToe from "../../../public/TicTacToe.png";
-import PlacePicker from "../../../public/PlacePicker.png";
-import ReactQuiz from "../../../public/ReactQuiz.png";
-import FoodieApp from "../../../public/TheFoodieApp.png";
-import MaptyApp from "../../../public/MaptyApp.png";
-import Bankist from "../../../public/BankistApp.png";
+import TicTacToe from "../../../public/Images/TicTacToe.png";
+import PlacePicker from "../../../public/Images/PlacePicker.png";
+import ReactQuiz from "../../../public/Images/ReactQuiz.png";
+import FoodieApp from "../../../public/Images/TheFoodieApp.png";
+import MaptyApp from "../../../public/Images/MaptyApp.png";
+import Bankist from "../../../public/Images/BankistApp.png";
 
 const projects = [
   {
